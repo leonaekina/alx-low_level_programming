@@ -2,10 +2,10 @@ C - Variadic functions
 
 Tasks:
 
-Task 0:
+Task 1:
 Write a function that returns the sum of all its parameters.
 
-Task 1:
+Task 0:
 Write a function that prints numbers, followed by a new line.
 
 Task 2:
