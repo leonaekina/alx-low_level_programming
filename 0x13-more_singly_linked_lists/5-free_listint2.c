@@ -3,7 +3,7 @@
 
 /**
  * free_listint2 - Frees a listint_t linked list
- * @head: A pointer to a pointer to the head of the singly linked list
+ * @head: A double pointer of the singly linked list
  *
  * Return: void
  */
@@ -15,7 +15,7 @@ void free_listint2(listint_t **head)
 	if (head == NULL)
 		return;
 
-	while (head != NULL)
+	while (*head != NULL)
 	{
 		temp = *head;
 		*head = (*head)->next;
